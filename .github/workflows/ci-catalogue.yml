@@ -17,6 +17,8 @@ env:
   GAR_INFO: northamerica-northeast2-docker.pkg.dev/thedevproj/tdpartifs
   CATALOGUE_APP_NAME: rs-catalogue
   
+jobs:  
+  
   build-catalogue:
     name: Building CATALOGUE IMAGE
     runs-on: ubuntu-latest
